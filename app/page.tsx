@@ -10,6 +10,8 @@ import { TracingBeam } from "@/components/ui/TracingBeam";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
+import { ScrollContainer } from "@/components/ContainerScroll";
+import { MacbookScroll } from "@/components/MacBookScroll";
 
 const Home = () => {
   return (
@@ -18,13 +20,15 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <TracingBeam>
           <Hero />
+          <MacbookScroll />
         </TracingBeam>
-          <Grid />
-          <RecentProjects />
-          <Skills />
-          <Experience />
-          <Approach />
-          <Footer />
+        <Grid />
+        <RecentProjects />
+        <Skills />
+        <Experience />
+        <Approach />
+        {/* <ScrollContainer /> */}
+        <Footer />
       </div>
     </main>
   );
