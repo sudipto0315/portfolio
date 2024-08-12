@@ -109,29 +109,28 @@ export const projects = [
 
 export const skills = [
   {
-
     title: "Programming Languages: ",
-    description: "Proficient in C/C++, Python, Java, JavaScript/TypeScript, and SQL, enabling versatile software development across various platforms and applications.",
+    description: "Proficient in C/C++, Python, Java, JavaScript/TypeScript, and SQL, enabling versatile software development across various platforms.",
     details: "C/C++, Python, Java, JavaScript/TypeScript",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/c-logo.svg", "/c++-logo.svg", "/python-logo.svg", "/java-logo.svg", "/javascript-logo.svg", "/typescript-logo.svg"],
   },
   {
     title: "Databases: ",
     description: "Experienced with MySQL, PostgreSQL, NoSQL (MongoDB), and Firebase Services, ensuring efficient data management and storage solutions.",
     details: "MySQL, PostgreSQL, NoSQL (MongoDB), Firebase Services",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/mysql-logo.svg", "/postgresql-logo.svg", "/mongodb-logo.svg", "/firebase-logo.svg"],
   },
   {
     title: "Frameworks: ",
     description: "Skilled in NodeJS, ExpressJS, ReactJS, TensorFlow, Android SDK, AWS, and Git, facilitating robust full-stack development and machine learning applications.",
-    details: "NodeJS, ExpressJS, ReactJS, TensorFlow, Android SDK, AWS, Git",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    details: "NodeJS, ReactJS, TensorFlow, Android SDK, AWS, Git",
+    iconLists: ["/nodejs-logo.svg", "/re.svg", "/tensorflow-logo.svg", "/android-logo.svg", "/aws-logo.svg", "/git-logo.svg"],
   },
   {
     title: "Concepts Known:",
-    description: "Strong understanding of Data Structures & Algorithms, Networking, Machine Learning, Linux, Cloud Computing, and RESTful APIs for efficient and scalable software solutions.",
-    details: "Concepts: Data Structures & Algorithms, Object-Oriented Programming (OOPs), Networking, Machine Learning, Linux, Cloud Computing, RESTful APIs",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    description: "Strong understanding of DSA, Networking, Machine Learning, Linux and Cloud Computing for efficient and scalable software solutions.",
+    details: "Data Structures & Algorithms, Networking, Machine Learning, Linux, Cloud Computing",
+    iconLists: ["/algorithm-logo.svg", "/networking-logo.svg", "/machine-learning-logo.svg", "/linux-logo.svg", "/cloud-computing-logo.svg"],
   },
 ];
 
@@ -208,12 +207,17 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
-    link: "https://x.com/SudiptoRay10",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/sudipto_ray03/",
   },
   {
     id: 3,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/sudipto0315",
+  },
+  {
+    id: 4,
+    img: "/twit.svg",
+    link: "https://x.com/SudiptoRay10",
   },
 ];
