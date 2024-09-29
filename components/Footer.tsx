@@ -15,7 +15,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="https://drive.google.com/file/d/160yCHusxYoTYWHimT8ExgqiV6uzP45be/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1d0MGwHXDW53a38_tciH-poiI6HOIxCnO/view?usp=sharing">
           <MagicButton
             title="Resume"
             icon={<FaLocationArrow />}
