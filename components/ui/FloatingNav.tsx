@@ -85,7 +85,7 @@ export const FloatingNav = ({
         ))}
         <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
           <span>
-            <a href="https://drive.google.com/file/d/160yCHusxYoTYWHimT8ExgqiV6uzP45be/view?usp=sharing">Resume</a>
+            <a href="https://drive.google.com/file/d/1d0MGwHXDW53a38_tciH-poiI6HOIxCnO/view?usp=sharing">Resume</a>
           </span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </button>
